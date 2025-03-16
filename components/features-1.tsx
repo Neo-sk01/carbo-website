@@ -4,6 +4,7 @@ import { ReactNode } from 'react'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
+import Link from 'next/link'
 
 export default function Features() {
     return (
@@ -49,9 +50,11 @@ export default function Features() {
                         </CardContent>
                         
                         <CardFooter className="pt-0 pb-6 flex justify-center">
-                            <Button variant="ghost" size="sm" className="text-blue-600 dark:text-blue-500 group-hover:bg-blue-50 dark:group-hover:bg-blue-950/20">
-                                Learn more <ArrowRight className="ml-2 size-4" />
-                            </Button>
+                            <Link href="/process/discovery">
+                                <Button variant="ghost" size="sm" className="text-blue-600 dark:text-blue-500 group-hover:bg-blue-50 dark:group-hover:bg-blue-950/20">
+                                    Learn more <ArrowRight className="ml-2 size-4" />
+                                </Button>
+                            </Link>
                         </CardFooter>
                     </Card>
 
@@ -78,9 +81,11 @@ export default function Features() {
                         </CardContent>
                         
                         <CardFooter className="pt-0 pb-6 flex justify-center">
-                            <Button variant="ghost" size="sm" className="text-purple-600 dark:text-purple-500 group-hover:bg-purple-50 dark:group-hover:bg-purple-950/20">
-                                Learn more <ArrowRight className="ml-2 size-4" />
-                            </Button>
+                            <Link href="/process/mapping">
+                                <Button variant="ghost" size="sm" className="text-purple-600 dark:text-purple-500 group-hover:bg-purple-50 dark:group-hover:bg-purple-950/20">
+                                    Learn more <ArrowRight className="ml-2 size-4" />
+                                </Button>
+                            </Link>
                         </CardFooter>
                     </Card>
 
@@ -107,9 +112,11 @@ export default function Features() {
                         </CardContent>
                         
                         <CardFooter className="pt-0 pb-6 flex justify-center">
-                            <Button variant="ghost" size="sm" className="text-emerald-600 dark:text-emerald-500 group-hover:bg-emerald-50 dark:group-hover:bg-emerald-950/20">
-                                Learn more <ArrowRight className="ml-2 size-4" />
-                            </Button>
+                            <Link href="/process/implementation">
+                                <Button variant="ghost" size="sm" className="text-emerald-600 dark:text-emerald-500 group-hover:bg-emerald-50 dark:group-hover:bg-emerald-950/20">
+                                    Learn more <ArrowRight className="ml-2 size-4" />
+                                </Button>
+                            </Link>
                         </CardFooter>
                     </Card>
                 </div>

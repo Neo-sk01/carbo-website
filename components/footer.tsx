@@ -1,5 +1,6 @@
 import { Logo } from '@/components/logo'
 import Link from 'next/link'
+import { Mail } from 'lucide-react'
 
 const links = [
     { title: 'Services', href: '#features' },
@@ -16,11 +17,17 @@ export default function FooterSection() {
                 <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
                     <div>
                         <Link href="/" aria-label="go home" className="block size-fit">
-                            <Logo className="h-8 w-auto" />
+                            <Logo className="h-11 w-auto" />
                         </Link>
                         <p className="mt-3 text-xs text-zinc-600 dark:text-zinc-400 max-w-md">
                             Carbo Software specializes in AI-powered automation solutions that help businesses streamline operations, reduce costs, and improve efficiency.
                         </p>
+                        <div className="mt-3 flex items-center text-xs text-zinc-600 dark:text-zinc-400">
+                            <Mail className="h-3.5 w-3.5 mr-1.5" />
+                            <a href="mailto:neosk@carbosoftware.tech" className="hover:text-primary transition-colors">
+                                neosk@carbosoftware.tech
+                            </a>
+                        </div>
                     </div>
                     <div>
                         <h3 className="text-sm font-medium mb-3">Quick Links</h3>
