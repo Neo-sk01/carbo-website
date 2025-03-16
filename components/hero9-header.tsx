@@ -10,6 +10,7 @@ import { cn } from '@/lib/utils'
 const menuItems = [
     { name: 'Services', href: '#features' },
     { name: 'Process', href: '#process' },
+    { name: 'Demos', href: '/demos' },
     { name: 'FAQ', href: '#faq' },
     { name: 'Contact', href: 'https://calendly.com/neosk-carbosoftware', external: true },
 ]

@@ -4,6 +4,7 @@ import Link from 'next/link'
 const links = [
     { title: 'Services', href: '#features' },
     { title: 'Process', href: '#process' },
+    { title: 'Demos', href: '/demos' },
     { title: 'FAQ', href: '#faq' },
     { title: 'Contact', href: 'https://calendly.com/neosk-carbosoftware', external: true },
 ]

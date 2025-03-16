@@ -16,6 +16,30 @@ Carbo Software is a cutting-edge AI Automations Agency specializing in transform
 - **Responsive Design**: Optimized for all devices from mobile to desktop
 - **Dark Mode Support**: Enhanced viewing experience in different lighting conditions
 
+## 🎬 Product Demonstrations
+
+Below are video demonstrations of our AI automation solutions in action:
+
+### Website Walkthrough
+<!-- Replace with your actual Loom embed code -->
+<div style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe src="https://www.loom.com/embed/your-loom-id" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div>
+
+### AI Automation Demo
+<!-- Replace with your actual Loom embed code -->
+<div style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe src="https://www.loom.com/embed/your-loom-id" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div>
+
+### Client Success Story
+<!-- Replace with your actual Loom embed code -->
+<div style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe src="https://www.loom.com/embed/your-loom-id" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div>
+
+> **Note**: To add your own Loom videos, replace the placeholder URLs with your actual Loom embed links. You can get these by clicking "Share" on your Loom video and selecting the "Embed" option.
+
 ## 🛠️ Tech Stack
 
 - **Framework**: Next.js 15.1.0
