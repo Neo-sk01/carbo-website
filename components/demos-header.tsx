@@ -20,15 +20,15 @@ export const DemosHeader = () => {
 
     return (
         <header>
-            <nav className="fixed z-20 w-full pt-2">
+            <nav className="fixed z-20 w-full pt-1">
                 <div className={cn(
-                    'mx-auto max-w-7xl rounded-3xl px-6 transition-all duration-300 lg:px-12', 
+                    'mx-auto max-w-7xl rounded-2xl px-4 transition-all duration-300 lg:px-8', 
                     scrolled ? 'bg-background/80 backdrop-blur-xl shadow-sm dark:bg-zinc-900/80 border border-zinc-200/20 dark:border-zinc-800/20' : ''
                 )}>
                     <motion.div
                         key={1}
-                        className={cn('relative flex flex-wrap items-center justify-between gap-6 py-3 duration-200 lg:gap-0 lg:py-6', scrolled && 'lg:py-4')}>
-                        <div className="flex w-full items-center justify-between gap-12 lg:w-auto">
+                        className={cn('relative flex flex-wrap items-center justify-between gap-4 py-2 duration-200 lg:gap-0 lg:py-3', scrolled && 'lg:py-2')}>
+                        <div className="flex w-full items-center justify-between gap-8 lg:w-auto">
                             <Link
                                 href="/"
                                 aria-label="home"
@@ -43,9 +43,9 @@ export const DemosHeader = () => {
                                 asChild
                                 variant="ghost"
                                 size="sm"
-                                className="rounded-full px-5 transition-all duration-300">
+                                className="rounded-full px-4 py-1 h-8 text-sm transition-all duration-300">
                                 <Link href="/">
-                                    <ArrowLeft className="mr-2 h-4 w-4" />
+                                    <ArrowLeft className="mr-2 h-3.5 w-3.5" />
                                     <span>Back to Home</span>
                                 </Link>
                             </Button>

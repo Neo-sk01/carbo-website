@@ -5,12 +5,17 @@ export const metadata: Metadata = {
   title: 'Carbo Software | AI Automation Solutions',
   description: 'Carbo Software specializes in AI-powered automation solutions that help businesses streamline operations, reduce costs, and improve efficiency.',
   generator: 'Next.js',
+  manifest: '/favicon/site.webmanifest',
   icons: {
     icon: [
       {
+        url: '/favicon/favicon.svg',
+        type: 'image/svg+xml',
+      },
+      {
         url: '/images/carbo logo.svg',
         type: 'image/svg+xml',
-        sizes: '48x48', // Increased by 20% from standard 40x40
+        sizes: '48x48',
       },
       {
         url: '/images/carbo logo.svg',
@@ -23,6 +28,7 @@ export const metadata: Metadata = {
         sizes: '16x16',
       }
     ],
+    shortcut: { url: '/favicon/favicon.svg', type: 'image/svg+xml' },
     apple: [
       {
         url: '/images/carbo logo.svg',
@@ -38,7 +44,7 @@ export const metadata: Metadata = {
     other: [
       {
         rel: 'mask-icon',
-        url: '/images/carbo logo.svg',
+        url: '/favicon/favicon.svg',
       }
     ]
   },
