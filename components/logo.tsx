@@ -7,11 +7,9 @@ export const Logo = ({ className }: { className?: string }) => {
             <Image 
                 src="/images/carbo logo.svg" 
                 alt="Carbo Software Logo" 
-                width={100}
-                height={42}
-                className={cn('w-auto h-auto max-w-[90px] sm:max-w-[95px] md:max-w-[100px]', className)}
-                priority
-                style={{ objectFit: 'contain' }}
+                width={168}
+                height={70}
+                className={cn('mr-2', className)}
             />
         </div>
     )
@@ -23,11 +21,9 @@ export const LogoStroke = ({ className }: { className?: string }) => {
             <Image 
                 src="/images/carbo logo.svg" 
                 alt="Carbo Software Logo" 
-                width={100}
-                height={42}
-                className={cn('w-auto h-auto max-w-[90px] sm:max-w-[95px] md:max-w-[100px]', className)}
-                priority
-                style={{ objectFit: 'contain' }}
+                width={168}
+                height={70}
+                className={cn('mr-2', className)}
             />
         </div>
     )

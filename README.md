@@ -1,6 +1,6 @@
 # Carbo Software | AI Automation Solutions
 
-![Carbo Software Logo](/images/1.jpeg)
+![Carbo Software Logo](/images/carbo logo.svg)
 
 ## 🚀 Overview
 
@@ -116,25 +116,3 @@ The website can be deployed to various platforms:
   pnpm build
   pnpm export
   ```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is proprietary and confidential. All rights reserved.
-
-## 📞 Contact
-
-For inquiries about our AI automation services:
-- **Website**: [carbosoftware.com](https://carbosoftware.com)
-- **Calendly**: [Schedule a meeting](https://calendly.com/neosk-carbosoftware)
-
----
-
-Built with ❤️ by Carbo Software 
