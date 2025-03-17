@@ -8,37 +8,37 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '/images/7EC73928-7875-4306-A35E-328C263A269F.png',
-        type: 'image/png',
+        url: '/images/carbo logo.svg',
+        type: 'image/svg+xml',
         sizes: '48x48', // Increased by 20% from standard 40x40
       },
       {
-        url: '/images/7EC73928-7875-4306-A35E-328C263A269F.png',
-        type: 'image/png',
+        url: '/images/carbo logo.svg',
+        type: 'image/svg+xml',
         sizes: '32x32',
       },
       {
-        url: '/images/7EC73928-7875-4306-A35E-328C263A269F.png',
-        type: 'image/png',
+        url: '/images/carbo logo.svg',
+        type: 'image/svg+xml',
         sizes: '16x16',
       }
     ],
     apple: [
       {
-        url: '/images/7EC73928-7875-4306-A35E-328C263A269F.png',
+        url: '/images/carbo logo.svg',
+        type: 'image/svg+xml',
         sizes: '180x180',
-        type: 'image/png',
       },
       {
-        url: '/images/7EC73928-7875-4306-A35E-328C263A269F.png',
+        url: '/images/carbo logo.svg',
+        type: 'image/svg+xml',
         sizes: '152x152',
-        type: 'image/png',
       }
     ],
     other: [
       {
         rel: 'mask-icon',
-        url: '/images/7EC73928-7875-4306-A35E-328C263A269F.png',
+        url: '/images/carbo logo.svg',
       }
     ]
   },

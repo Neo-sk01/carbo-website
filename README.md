@@ -1,6 +1,6 @@
 # Carbo Software | AI Automation Solutions
 
-![Carbo Software Logo](/images/7EC73928-7875-4306-A35E-328C263A269F.png)
+![Carbo Software Logo](/images/1.jpeg)
 
 ## 🚀 Overview
 
