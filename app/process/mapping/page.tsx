@@ -1,9 +1,9 @@
 import React from 'react'
 import { Metadata } from 'next'
-import { DemosHeader } from '@/components/demos-header'
+import { ProcessHeader } from '@/components/process-header'
 import { Card, CardContent, CardHeader } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
-import { GitBranch, ArrowLeft, CheckCircle2, ArrowRight } from 'lucide-react'
+import { GitBranch, CheckCircle2, ArrowRight, ArrowLeft } from 'lucide-react'
 import Link from 'next/link'
 import Footer from '@/components/footer'
 import Image from 'next/image'
@@ -16,21 +16,16 @@ export const metadata: Metadata = {
 export default function ProcessMappingPage() {
   return (
     <div className="flex min-h-screen flex-col">
-      <DemosHeader />
+      <ProcessHeader currentStep="mapping" />
       
       <main className="flex-1">
         <section className="bg-gradient-to-b from-purple-50 to-white py-20 dark:from-purple-950/20 dark:to-background">
           <div className="container mx-auto max-w-4xl px-6">
-            <Link href="/#process" className="inline-flex items-center text-purple-600 hover:text-purple-700 mb-8">
-              <ArrowLeft className="mr-2 h-4 w-4" />
-              Back to Process
-            </Link>
-            
-            <div className="flex items-center mb-6">
+            <div className="flex items-center mb-6 pt-16">
               <div className="mr-4 flex h-16 w-16 items-center justify-center rounded-full bg-purple-100 dark:bg-purple-900/30">
                 <GitBranch className="h-8 w-8 text-purple-600 dark:text-purple-400" />
               </div>
-              <h1 className="text-4xl font-bold tracking-tight">Process Mapping</h1>
+              <h1 className="text-3xl font-bold tracking-tight">Process Mapping</h1>
             </div>
             
             <p className="text-xl text-muted-foreground mb-12">

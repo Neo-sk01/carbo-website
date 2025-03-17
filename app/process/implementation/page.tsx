@@ -1,9 +1,9 @@
 import React from 'react'
 import { Metadata } from 'next'
-import { DemosHeader } from '@/components/demos-header'
+import { ProcessHeader } from '@/components/process-header'
 import { Card, CardContent, CardHeader } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
-import { Zap, ArrowLeft, CheckCircle2, ArrowRight } from 'lucide-react'
+import { Zap, CheckCircle2, ArrowRight, ArrowLeft } from 'lucide-react'
 import Link from 'next/link'
 import Footer from '@/components/footer'
 
@@ -15,21 +15,16 @@ export const metadata: Metadata = {
 export default function ImplementationPage() {
   return (
     <div className="flex min-h-screen flex-col">
-      <DemosHeader />
+      <ProcessHeader currentStep="implementation" />
       
       <main className="flex-1">
         <section className="bg-gradient-to-b from-emerald-50 to-white py-20 dark:from-emerald-950/20 dark:to-background">
           <div className="container mx-auto max-w-4xl px-6">
-            <Link href="/#process" className="inline-flex items-center text-emerald-600 hover:text-emerald-700 mb-8">
-              <ArrowLeft className="mr-2 h-4 w-4" />
-              Back to Process
-            </Link>
-            
-            <div className="flex items-center mb-6">
+            <div className="flex items-center mb-6 pt-16">
               <div className="mr-4 flex h-16 w-16 items-center justify-center rounded-full bg-emerald-100 dark:bg-emerald-900/30">
                 <Zap className="h-8 w-8 text-emerald-600 dark:text-emerald-400" />
               </div>
-              <h1 className="text-4xl font-bold tracking-tight">Implementation</h1>
+              <h1 className="text-3xl font-bold tracking-tight">Implementation</h1>
             </div>
             
             <p className="text-xl text-muted-foreground mb-12">
