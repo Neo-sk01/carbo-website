@@ -9,6 +9,7 @@ import { ChevronRight } from 'lucide-react'
 import Features from '@/components/features-1'
 import { Features2 } from '@/components/features-2'
 import { Bot, Brain, Cpu, Database, LineChart, Workflow } from 'lucide-react'
+import ShadcnChatbotWidget from '@/components/shadcn-chatbot-widget'
 
 export default function HeroSection() {
     return (
@@ -193,6 +194,9 @@ export default function HeroSection() {
                 />
                 
                 <Features />
+
+                {/* Add the chatbot widget */}
+                <ShadcnChatbotWidget />
             </main>
         </>
     )
