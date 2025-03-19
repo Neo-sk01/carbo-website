@@ -136,11 +136,11 @@ export default function ShadcnChatbotWidget() {
         }),
       })
       
-      if (!response.ok) {
-        throw new Error(`API error: ${response.status}`)
-      }
-      
       const data = await response.json()
+      
+      if (!response.ok) {
+        throw new Error(data.error || `API error: ${response.status}`)
+      }
       
       // Add the AI response to messages
       const aiMessage: Message = {
@@ -154,11 +154,11 @@ export default function ShadcnChatbotWidget() {
     } catch (error) {
       console.error('Error generating AI response:', error)
       
-      // Add an error message
+      // Add a more detailed error message
       const errorMessage: Message = {
         id: Date.now().toString(),
         role: 'assistant',
-        content: "I'm sorry, I encountered an error. Please try again later.",
+        content: "I'm sorry, I encountered an error connecting to my AI brain. This might be due to an API configuration issue. Please try again later or contact support if this persists.",
         createdAt: new Date(),
       }
       

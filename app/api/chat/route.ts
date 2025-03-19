@@ -1,9 +1,16 @@
 import { NextResponse } from 'next/server';
 import OpenAI from 'openai';
 
-// Initialize the OpenAI client
+// Initialize the OpenAI client with a more reliable approach to get the API key
+const apiKey = process.env.OPENAI_API_KEY || '';
+
+// Check if API key is available and log a useful message if not
+if (!apiKey) {
+  console.error('Warning: OPENAI_API_KEY environment variable is not set. The chatbot will not work properly.');
+}
+
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey,
 });
 
 // System prompt to set the AI's personality and knowledge about Carbo
@@ -47,6 +54,14 @@ Use Markdown formatting where appropriate to structure your responses, especiall
 
 export async function POST(request: Request) {
   try {
+    // Check if API key is available
+    if (!apiKey) {
+      return NextResponse.json(
+        { error: 'OpenAI API key is not configured. Please set the OPENAI_API_KEY environment variable.' },
+        { status: 500 }
+      );
+    }
+
     const body = await request.json();
     const { messages } = body;
 
